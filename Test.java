@@ -1,14 +1,11 @@
-package first;
 
-class Test{
-	public void show()
+class Test {
+	public static void main(String[] args)
 	{
-		System.out.println("Hi");
-		}
-
-}
-class Useme{
-	public void main(String[] args) {
-		Test.show();
+		char c=65;
+		char ch='A';
+		System.out.println(c);
+		System.out.println(ch);
 	}
 }
+
